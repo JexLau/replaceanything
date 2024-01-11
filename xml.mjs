@@ -3,7 +3,7 @@ import { dirname, basename, resolve } from 'path';
 import { sync } from 'glob';
 
 const languages = ['en', 'es', 'de', 'ko', 'ja', 'vi', 'pt', 'fr']; // 你的支持的语言列表
-const baseUrl = 'https://www.freemapsscraper.com'; // 你的网站基础URL
+const baseUrl = 'https://replaceanything.online'; // 你的网站基础URL
 const pagesDirectory = './src/app'; // 页面目录
 const currentDir = resolve(process.cwd(), pagesDirectory);
 // 创建一个对象来存储每种语言的sitemap

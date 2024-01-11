@@ -11,19 +11,13 @@ export const FreeToTry = ({ className, text, href, isDownload }: FreeToTryProps)
   animate-[shimmer_2.5s_linear_infinite] 
   after:flex after:absolute after:bg-blue-700 after:inset-[2px] after:rounded-[22px] after:content-[attr(aria-label)]
   after:items-center after:justify-center ${className}`
-  
-  return !isDownload ? <a
+
+  return <span
     className={cls}
-    aria-label={text || "Free To Try"}
-    href={'/google-maps-scraper-chrome-extension'}
-    ><span className="opacity-0">{text || "Free To Try"}</span>
-  </a> : <a
-    className={cls}
-    target="_blank"
-    href={href}
+    // href={href || ''}
     aria-label={text || "Download"}
   ><span className="opacity-0">{text || "Download"}</span>
-  </a>
+  </span>
 }
 
 

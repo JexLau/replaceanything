@@ -30,22 +30,22 @@ export function Header({ downloadText, href }: { downloadText?: string, href?: s
             <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
             </Link>
-            <div className="hidden md:flex md:gap-x-6">
+            {/* <div className="hidden md:flex md:gap-x-6">
               {nav.map((item, index) => (
                 <NavLink key={index} href={item.href}>{item.title}</NavLink>
               ))}
-            </div>
+            </div> */}
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <LocaleSwitcher />
             {/* 移动端隐藏 */}
-            <div className="hidden md:flex">
+            {/* <div className="hidden md:flex">
               <FreeToTry text={downloadText} isDownload={!!href} href={href} className="flex-shrink-0" />
-            </div>
-            <div className="-mr-1 md:hidden">
+            </div> */}
+            {/* <div className="-mr-1 md:hidden">
               <MobileNavigation nav={nav}>
               </MobileNavigation>
-            </div>
+            </div> */}
           </div>
         </nav>
       </Container>

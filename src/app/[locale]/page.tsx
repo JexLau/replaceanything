@@ -8,6 +8,7 @@ import { HowToWorkSection } from '@/components/HowToWorkSection'
 import { Meta } from '@/components/Meta'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { Replace } from '@/components/Replace'
 import { Testimonials } from '@/components/Testimonials'
 import { useTranslations } from 'next-intl'
 
@@ -19,17 +20,8 @@ export default function Home({ params }: { params: Record<string, string> }) {
     <>
       <Meta title={t('title')} description={t('description')} locale={locale} />
       <Header downloadText={ct("Free to try")} />
-      <main>
-        <Hero />
-        <PrimaryFeatures />
-        <HowToWorkSection />
-        <DataFieldSection />
-        {/* <SecondaryFeatures /> */}
-        {/* <CallToAction /> */}
-        <Pricing />
-        <Testimonials />
-        <Faqs />
-      </main>
+      <Hero />
+      <Replace />
       <Footer />
     </>
   )

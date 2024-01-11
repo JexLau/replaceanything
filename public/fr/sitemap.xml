@@ -6,14 +6,8 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://www.freemapsscraper.com/fr</loc>
-        <lastmod>2024-01-09T21:02:16.062Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.freemapsscraper.com/fr/google-maps-scraper-chrome-extension</loc>
-        <lastmod>2024-01-09T20:36:42.628Z</lastmod>
+        <loc>https://replaceanything.online/fr</loc>
+        <lastmod>2024-01-11T10:04:11.850Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

@@ -61,7 +61,7 @@ const faqs = [
             {t('h2')}
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            {t('desc1')} <a href="mailto:freemapsscraper@gmail.com" className="text-indigo-600"> {t('desc2')}</a> 
+            {t('desc1')} <a className="text-indigo-600"> {t('desc2')}</a> 
             {t('desc3')}
           </p>
         </div>

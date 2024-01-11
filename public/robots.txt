@@ -2,4 +2,4 @@
 User-agent: *
 
 # Sitemaps
-Sitemap: https://www.freemapsscraper.com/sitemap.xml
+Sitemap: https://replaceanything.online/sitemap.xml
