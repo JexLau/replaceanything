@@ -9,19 +9,19 @@ import { useTranslations } from "next-intl";
 
 export function Header({ downloadText, href }: { downloadText?: string, href?: string }) {
   const t = useTranslations("Common")
-  const nav = [{
-    title: t("Features"),
-    href: "/#features"
-  }, {
-    title: t("Datafields"),
-    href: "/#datafields"
-  }, {
-    title: t("Pricing"),
-    href: "/#pricing"
-  }, {
-    title: t("FAQs"),
-    href: "/#faq"
-  }]
+  // const nav = [{
+  //   title: t("Features"),
+  //   href: "/#features"
+  // }, {
+  //   title: t("Datafields"),
+  //   href: "/#datafields"
+  // }, {
+  //   title: t("Pricing"),
+  //   href: "/#pricing"
+  // }, {
+  //   title: t("FAQs"),
+  //   href: "/#faq"
+  // }]
   return (
     <header className="py-6 fixed top-0 z-50 bg-white shadow-sm w-full">
       <Container>

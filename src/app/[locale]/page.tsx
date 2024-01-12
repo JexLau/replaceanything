@@ -22,6 +22,7 @@ export default function Home({ params }: { params: Record<string, string> }) {
       <Header downloadText={ct("Free to try")} />
       <Hero />
       <Replace />
+      <Faqs />
       <Footer />
     </>
   )
