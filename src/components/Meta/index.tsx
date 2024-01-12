@@ -9,7 +9,7 @@ export interface MetaProps {
 }
 
 
-export const Meta = ({ title, description, locale = 'en', pageurl, image = "https://mlbtlwqqirbfngxpwtno.supabase.co/storage/v1/object/public/mapleadscraper/web/images/export-your-results.png" }: MetaProps) => {
+export const Meta = ({ title, description, locale = 'en', pageurl, image = `${baseurl}/share.jpg` }: MetaProps) => {
   // const url = pageurl ? `${baseurl}/${pageurl}` : baseurl
   // `${baseurl}${pageurl}` : `${baseurl}/${locale}${pageurl}`}
   const url = pageurl ? `${getHrefLang(locale)}${pageurl}` : getHrefLang(locale)
