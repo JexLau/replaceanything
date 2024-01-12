@@ -34,7 +34,7 @@ export default function RootLayout({
       )}
     >
       <Umami />
-      <body className="flex h-full flex-col">{children}</body>
+      <body className="flex h-full flex-col overflow-x-hidden">{children}</body>
     </html>
   )
 }
