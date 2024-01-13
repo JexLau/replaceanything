@@ -1,4 +1,5 @@
 import { CallToAction } from '@/components/CallToAction'
+import { ContentSection } from '@/components/ContentSection'
 import { DataFieldSection } from '@/components/DataFieldSection'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
@@ -20,7 +21,8 @@ export default function Home({ params }: { params: Record<string, string> }) {
     <>
       <Meta title={t('title')} description={t('description')} locale={locale} />
       <Header downloadText={ct("Free to try")} />
-      <Hero />
+      <ContentSection />
+      {/* <Hero /> */}
       <Replace />
       <Faqs />
       <Footer />
