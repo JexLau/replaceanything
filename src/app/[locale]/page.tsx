@@ -1,6 +1,7 @@
 import { CallToAction } from '@/components/CallToAction'
 import { ContentSection } from '@/components/ContentSection'
 import { DataFieldSection } from '@/components/DataFieldSection'
+import { DescSection } from '@/components/DescSection'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -24,6 +25,7 @@ export default function Home({ params }: { params: Record<string, string> }) {
       <ContentSection />
       {/* <Hero /> */}
       <Replace />
+      <DescSection />
       <Faqs />
       <Footer />
     </>
