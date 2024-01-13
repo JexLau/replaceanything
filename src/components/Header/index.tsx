@@ -37,7 +37,7 @@ export function Header({ downloadText, href }: { downloadText?: string, href?: s
             </div> */}
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <LocaleSwitcher />
+            {/* <LocaleSwitcher /> */}
             {/* 移动端隐藏 */}
             {/* <div className="hidden md:flex">
               <FreeToTry text={downloadText} isDownload={!!href} href={href} className="flex-shrink-0" />

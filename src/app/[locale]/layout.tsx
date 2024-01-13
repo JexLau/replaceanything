@@ -2,7 +2,7 @@ import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
-import { Umami } from '@/components/Umami'
+import { GTag } from '@/components/GTag'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -33,7 +33,7 @@ export default function RootLayout({
         lexend.variable,
       )}
     >
-      <Umami />
+      <GTag />
       <body className="flex h-full flex-col overflow-x-hidden">{children}</body>
     </html>
   )
