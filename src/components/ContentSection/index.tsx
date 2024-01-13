@@ -1,4 +1,5 @@
 import { FreeToTry } from "../DownloadBtn"
+import { SocialShare } from "../SocialShare"
 
 const stats = [
   { label: '👀VIEW', value: '9k+' },
@@ -42,6 +43,7 @@ export function ContentSection() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 ReplaceAnything as you want: Ultra-high quality content replacement
               </h1>
+              <SocialShare className={['lg:hidden grid grid-cols-8 mt-4']} />
               <div className="max-w-xl">
                 <p className="mt-6">
                   AIGC techniques have attracted lots of attention recently. They have demonstrated strong capabilities in the areas of image editing, image generation and so on. We find that generating new contents while strictly keeping the identity of use-specified object unchanged is of great demand, yet challenging. To this end, we propose ReplaceAnything framework. It can be used in many scenes, such as human replacement, clothing replacement, background replacement, and so on.

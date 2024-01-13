@@ -11,6 +11,7 @@ import { Meta } from '@/components/Meta'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Replace } from '@/components/Replace'
+import { SocialShare } from '@/components/SocialShare'
 import { Testimonials } from '@/components/Testimonials'
 import { useTranslations } from 'next-intl'
 
@@ -28,6 +29,7 @@ export default function Home({ params }: { params: Record<string, string> }) {
       <DescSection />
       <Faqs />
       <Footer />
+      <SocialShare className={['fixed top-[30%] left-2 flex-col gap-2 z-[2000] hidden lg:flex']} />
     </>
   )
 }
