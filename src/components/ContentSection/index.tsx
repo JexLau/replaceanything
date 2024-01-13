@@ -24,11 +24,11 @@ export function ContentSection() {
                 <figcaption className="mt-6 text-sm leading-6 text-gray-300 px-8 ">
                   <strong className="font-semibold text-white">Author by: </strong>
                   <a href="https://scholar.google.com.hk/citations?user=-2uIiz4AAAAJ&amp;hl=zh-CN">Binghui Chen</a>,
-                  <a href="/AIGCDesignGroup/ReplaceAnything/blob/main">Chao Li</a>,
+                  <a href="https://github.com/AIGCDesignGroup/ReplaceAnythingZ">Chao Li</a>,
                   <a href="https://scholar.google.com.hk/citations?user=ODTZZ4wAAAAJ&amp;hl=zh-CN">Chongyang Zhong</a>,
                   <a href="https://scholar.google.com.hk/citations?user=LFNwNF4AAAAJ&amp;hl=en">Wangmeng Xiang</a>,
-                  <a href="/AIGCDesignGroup/ReplaceAnything/blob/main">Yifeng Geng</a>,
-                  <a href="/AIGCDesignGroup/ReplaceAnything/blob/main">Xuansong Xie</a>
+                  <a href="https://github.com/AIGCDesignGroup/ReplaceAnythingZ">Yifeng Geng</a>,
+                  <a href="https://github.com/AIGCDesignGroup/ReplaceAnythingZ">Xuansong Xie</a>
                 </figcaption>
               </figure>
             </div>
