@@ -4,24 +4,6 @@
     <loc>https://replaceanything.online/sitemap-0.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://replaceanything.online/ko/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/es/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/ja/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/de/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/fr/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/pt/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://replaceanything.online/vi/sitemap.xml</loc>
+    <loc>https://replaceanything.online/zh/sitemap.xml</loc>
   </sitemap>
 </sitemapindex>

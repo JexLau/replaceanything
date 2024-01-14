@@ -7,7 +7,13 @@
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://replaceanything.online/</loc>
-        <lastmod>2024-01-11T10:04:11.850Z</lastmod>
+        <lastmod>2024-01-14T00:32:39.951Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://replaceanything.online/playground</loc>
+        <lastmod>2024-01-14T00:59:57.430Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

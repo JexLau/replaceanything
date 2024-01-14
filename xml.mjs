@@ -2,7 +2,7 @@ import { statSync, existsSync, mkdirSync, writeFileSync, } from 'fs';
 import { dirname, basename, resolve } from 'path';
 import { sync } from 'glob';
 
-const languages = ['en', 'es', 'de', 'ko', 'ja', 'vi', 'pt', 'fr']; // 你的支持的语言列表
+const languages = ['en', 'zh']; // 你的支持的语言列表
 const baseUrl = 'https://replaceanything.online'; // 你的网站基础URL
 const pagesDirectory = './src/app'; // 页面目录
 const currentDir = resolve(process.cwd(), pagesDirectory);

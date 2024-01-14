@@ -1,12 +1,13 @@
 'use client'
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 
-export function Replace() {
-
-  // https://www.modelscope.cn/inner/studio/gradio?backend_url=/api/v1/studio/damo/ReplaceAnything/gradio/&sdk_version=3.47.1
+interface Props extends PropsWithChildren {
+  src?: string;
+}
+export function Replace({ src }: Props) {
   return (
     <div style={{ width: '100%', height: '1300px', position: 'relative', zIndex: 1 }} className='lg:-top-72 sm:-top-96'>
-      <iframe id="modelscope" src="https://modelscope-replaceanything.hf.space/?__theme=light" height="1300px%" width="100%"></iframe>
+      <iframe id="modelscope" src={src} height="1300px%" width="100%"></iframe>
     </div>
   );
 }
