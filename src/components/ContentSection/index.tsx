@@ -3,13 +3,13 @@ import { FreeToTry } from "../DownloadBtn"
 import { SocialShare } from "../SocialShare"
 
 const stats = [
-  { label: '👀VIEW', value: '9k+' },
-  { label: '❤️LIKE', value: '200+' },
-  { label: '🌟STAR', value: '600+' },
-  { label: '🤖UPDATED', value: '01/12' },
+  { label: '👀 VIEW', value: '9k+' },
+  { label: '❤️ LIKE', value: '200+' },
+  { label: '🌟 STAR', value: '600+' },
+  { label: '🤖 UPDATED', value: '01/12' },
 ]
 
-export function ContentSection() {
+export function ContentSection({ src}: { src?: string}) {
   const t = useTranslations('ContentSection')
   return (
     <div className="bg-white py-24 sm:py-32 relative z-10">
@@ -36,14 +36,13 @@ export function ContentSection() {
               </figure>
             </div>
             <div className="mt-10 text-right lg:max-w-lg lg:pb-8 xl:pb-10" >
-              <FreeToTry text={`${t("Start to Try")}`} />
+              <FreeToTry text={`${t("Start to Try")}`} href={src} />
             </div>
           </div>
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
               {/* <p className="text-base font-semibold leading-7 text-indigo-600">Company values</p> */}
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                {t("title")}
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" dangerouslySetInnerHTML={{ __html: t("title")}}>
               </h1>
               <SocialShare className={['lg:hidden grid grid-cols-8 mt-4']} />
               <div className="max-w-xl">

@@ -24,9 +24,9 @@ export default function Home({ params }: { params: Record<string, string> }) {
     <>
       <Meta title={t('title')} description={t('description')} locale={locale} />
       <Header downloadText={ct("Free to try")} />
-      <ContentSection />
+      <ContentSection src={source} />
       {/* <Hero /> */}
-      <Replace src={source} />
+      <Replace src={source} className={locale === 'zh' ? ['lg:-top-64 max-sm:-top-80'] : []} />
       <DescSection />
       <Faqs />
       <Footer />

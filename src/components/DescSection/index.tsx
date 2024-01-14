@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl"
 export function DescSection() {
   const t = useTranslations('DescSection')
   return (
-    <div className="bg-white px-6 lg:px-8 relative z-[1000] -mt-40">
+    <div className="bg-white px-6 lg:px-8 relative z-[1000] -mt-40 pb-12">
       <div className="mx-auto max-w-4xl text-base leading-7 text-gray-700">
         <h2 className="text-4xl font-bold tracking-tight text-gray-900">{t("Introducing")}</h2>
         <h3 className="mt-6 font-semibold text-gray-900 text-2xl">{t("t1")}</h3>
