@@ -1,35 +1,32 @@
-# Salient
+# ReplaceAnything Ultra-high quality content replacement
 
-Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+> resource code: https://github.com/AIGCDesignGroup/ReplaceAnything
 
-## Getting started
+AIGC techniques have attracted lots of attention recently. They have demonstrated strong capabilities in the areas of image editing, image generation and so on. We find that generating new contents while strictly keeping the identity of use-specified object unchanged is of great demand, yet challenging. To this end, we propose ReplaceAnything framework. It can be used in many scenes, such as human replacement, clothing replacement, background replacement, and so on.
 
-To get started with this template, first install the npm dependencies:
+## Introducing
 
-```bash
-npm install
-```
+### What is Replaceanything Framework?
 
-Next, run the development server:
+The Replaceanything Framework (V1.0.0) is a breakthrough in the field of artificial intelligence, particularly in the AIGC (Artificial Intelligence Generated Content) technology sector. This innovative framework specializes in high-quality content generation and replacement. Its main objective is to generate new content while preserving the identity of user-specified objects, a task that presents both high demand and significant challenges. The Replaceanything Framework stands out for its ability to efficiently and accurately handle various scenarios, such as human replacement, clothing alteration, and background transformation, catering to a broad spectrum of digital content creation needs.
 
-```bash
-npm run dev
-```
+### What are its Uses?
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+The Replaceanything Framework finds its application in diverse areas of content creation and editing. It allows users to seamlessly replace or modify elements within an image without compromising the overall integrity of the original. This tool is particularly useful in scenarios like advertising, where branding elements need to be consistent, or in personal media, where users may wish to customize or enhance their visual content. Its ease of use and precision in maintaining the authenticity of key components makes it an invaluable asset for both professional designers and hobbyists alike, fostering creativity and innovation in digital media creation.
 
-## Customizing
+## How to Use Modelscope Replaceanything
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+Using Modelscope Replaceanything is straightforward. Users start by uploading or selecting an image from examples, then click on the "Input Image" to choose the object to retain. Next, they can input a prompt or reference image for generating new content. Finally, clicking the “Run” button completes the process. Additionally, there are more input parameters available for advanced users to achieve more detailed and personalized content generation.
 
-## License
+### ⭐️ Step 1
+Upload an image or select one from the Examples in the “Input Image” section.
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+### ⭐️ Step 2
+Use the mouse to click and select the object in the image that you wish to retain.
 
-## Learn more
+### ⭐️ Step 3
+Enter the corresponding parameters, such as a prompt, and then click on "Run" to generate the content.
 
-To learn more about the technologies used in this site template, see the following resources:
+### ⭐️ Step 4 (Optional)
+Additionally, there's support for changing the background. Upload the desired style background and, after completing Step 3, click on "Run" to generate the content with the new background.
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
