@@ -4,7 +4,7 @@
 
 AIGC techniques have attracted lots of attention recently. They have demonstrated strong capabilities in the areas of image editing, image generation and so on. We find that generating new contents while strictly keeping the identity of use-specified object unchanged is of great demand, yet challenging. To this end, we propose ReplaceAnything framework. It can be used in many scenes, such as human replacement, clothing replacement, background replacement, and so on.
 
-Start to Try: https://replaceanything.online/
+Start to Try: [replaceanything.online](https://replaceanything.online/)
 
 ## Introducing
 
